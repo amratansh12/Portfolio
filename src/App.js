@@ -10,7 +10,7 @@ import CollaborationPage from './components/CollaborationPage/CollaborationPage'
 import Footer from './components/Footer/Footer';
 
 function App() {
-  const [isTriggered, setIsTriggered] = useState(true);
+  const [isTriggered, setIsTriggered] = useState(false);
   return (
     <div>
         <MouseParticles 
@@ -19,7 +19,7 @@ function App() {
         num={2}
         life={1}
         cull="inputs"/>
-        {/* <TriggerButton setIsTriggered={setIsTriggered} /> */}
+        <TriggerButton setIsTriggered={setIsTriggered} />
         {
           isTriggered &&
           <>
