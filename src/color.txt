@@ -1,0 +1,8 @@
+black : #343a40
+lighter black : #ced4da
+white : #f8f9fa
+
+blue : #48cae4
+dark blue : #023e8a
+
+["#343a40", "#ced4da", "#f8f9fa", "#48cae4", "#023e8a"]

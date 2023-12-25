@@ -1,0 +1,21 @@
+.containerTrigger{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.trigger{
+    font-size: 20px;
+    color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: #343a40;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow:  5px 5px 16px #a6a7a8, -5px -5px 16px #ffffff;
+}

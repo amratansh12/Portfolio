@@ -1,0 +1,23 @@
+.navbar{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ced4da;
+}
+
+.navbar h2{
+    background: transparent;
+    letter-spacing: 2px;
+}
+
+.navButtons{
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}
+
+.navbar span{
+    background: transparent;
+    color: #023e8a;
+}

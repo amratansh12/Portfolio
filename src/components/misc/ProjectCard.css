@@ -1,0 +1,74 @@
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    position: relative;
+}
+
+.projectHeadings h3{
+    margin: 5px 0;
+    color: #48cae4;
+    letter-spacing: 3px;
+}
+
+#projectCardTitle{
+    color: #343a40;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.overlay{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #343a40;
+    color: #f8f9fa;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.overlayButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+}
+
+#overlayBtn{
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 15px;
+}
+
+#overlayBtn:hover{
+    color: #343a40;
+    background-color: #48cae4;
+}
+
+#lastCard{
+    color: #f8f9fa;
+    font-size: 30px;
+    letter-spacing: 10px;
+    -webkit-text-stroke-color: #343a40;
+    -webkit-text-stroke-width: 0.5px;
+}

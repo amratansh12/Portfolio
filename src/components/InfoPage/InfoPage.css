@@ -1,0 +1,80 @@
+.infoPage{
+    position: relative;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ced4da;
+}
+
+.container{
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #343a40;
+}
+
+.buttons{
+    background: transparent;
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+#first{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ff605c;
+}
+
+#second{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #ffbd44;
+}
+
+#third{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #00ca4e;
+}
+
+.infoPage h1, 
+.infoPage h2, 
+.infoPage h3{
+    color: #f8f9fa;
+    margin: 4px 0;
+    background: transparent;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.infoPage h4{
+    background: transparent;
+    color: #48cae4;
+    margin: 3px 0;
+    letter-spacing: 2px;
+}
+
+.infoPage span{
+    color: #48cae4;
+    background: transparent;
+}
+
+@media screen and (max-width: 555px) {
+    .container{
+        height: 300px;
+    }
+}
+
