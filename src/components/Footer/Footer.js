@@ -22,7 +22,7 @@ export default function Footer(){
                     <i class="fa-brands fa-facebook-f"></i>
                 </div>
             </div>
-            <p>Copyright <i style={{background: "transparent"}} class="fa-regular fa-copyright"></i> 2023. Breach this, and you'll wish you had Michael Scofield's brains.</p>
+            <p>Scofield's on a break, but this code isn't. Copyright <i style={{background: "transparent"}} class="fa-regular fa-copyright"></i> 2023.</p>
             <p>Made with <i style={{color: "red", background: "transparent"}} class="fa-solid fa-heart"></i> by Amratansh</p>
         </div>
     )
