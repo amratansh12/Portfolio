@@ -1,0 +1,66 @@
+.organizations {
+  padding: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.organizations-section {
+  background: transparent;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.organizations h3 {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.organizations .orgs {
+  border-radius: 20px;
+  padding: 20px;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #343a40;
+  box-shadow: 10px 10px 10px #cecfd0, -5px -5px 13px #ffffff;
+  color: white;
+}
+
+.organizations .orgs a {
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}
+
+.organizations .orgs p {
+  background: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 18px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.organizations .orgs p:hover {
+  color: #48cae4;
+}
+
+.organizations .orgs > span {
+  background: transparent;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #cecfd0;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  .organizations-section {
+    grid-template-columns: 1fr;
+  }
+}
